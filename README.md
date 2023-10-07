@@ -11,7 +11,8 @@ Firstly, finding the euclidean distance between every person and every baggage. 
 
 -If the euclidean distance is less than the euclidean threshold value set by us, then we move on to calculate the intersection of union(IOU) between the bounding boxes of the person and 
 baggage being considered.
-  -If the IOU is greater than the IOU threshold set by us, then it is classified as 'NOT ABANDONED' baggage, else it is suspected to be abandoned.
+
+-If the IOU is greater than the IOU threshold set by us, then it is classified as 'NOT ABANDONED' baggage, else it is suspected to be abandoned.
 
 The remaining baggages are then classified as 'ABONDONED' baggage.
 
